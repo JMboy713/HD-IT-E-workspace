@@ -14,6 +14,10 @@ public class Account {
         this.interestRate = interestRate;
     }
 
+    public void setInterestRate(double interestRate) {
+        this.interestRate = interestRate;
+    }
+
     public int getBalance() {
         return balance;
     }
@@ -41,6 +45,10 @@ public class Account {
     @Override
     public String toString() {
         return  "계좌정보: " +account + " 현재 잔액 " +balance ;
+    }
+
+    public String accountInfo() {
+        return "계좌정보: " + account + " 현재 잔액 " + balance + " 이자율 " + interestRate+"%";
     }
 }
 
