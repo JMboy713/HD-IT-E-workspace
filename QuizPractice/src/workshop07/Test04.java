@@ -11,8 +11,18 @@ public class Test04 {
             System.out.print(st.nextToken()+"  ");
             count += 1;
         }
+
+        System.out.println("문자 개수 " + count);
+        int count2 = 0;
         for (int i = 0; i < str.length(); i++) {
-            System.out.println(str);
+            char ch = str.charAt(i);
+            if (ch != ' ') {
+                System.out.print(ch+" ");
+                count2++;
+            }
+
         }
+        System.out.println("단어 개수 : " + count2);
+
     }
 }
