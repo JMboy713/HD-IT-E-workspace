@@ -36,8 +36,6 @@ public class ThreadTest3 {
         t1.start();
         t2.start();
 
-        String a = "aaaa";
-        a.substring()
     }
 
 }
